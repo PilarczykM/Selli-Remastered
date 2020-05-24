@@ -1,4 +1,4 @@
 export interface ContactButtonProps {
-    inverted?: boolean;
-    transparent?: boolean
+  inverted?: boolean
+  transparent?: boolean
 }
