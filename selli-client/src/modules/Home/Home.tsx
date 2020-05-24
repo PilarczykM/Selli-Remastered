@@ -1,3 +1,3 @@
-import * as React from 'react'
+import React, { FC } from 'react'
 
-export const Home: React.FC = () => <h1>Home Module</h1>
+export const Home: FC = () => <h1>Home Module</h1>

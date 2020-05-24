@@ -1,3 +1,3 @@
-import * as React from 'react'
+import React, { FC } from 'react'
 
-export const Register: React.FC = () => <h1>Register Module.</h1>
+export const Register: FC = () => <h1>Register Module.</h1>

@@ -1,12 +1,13 @@
-import React from 'react'
+import { GeomanistFont, GlobalStyle } from 'components'
+import { Home } from 'modules/Home/Home'
+import { Register } from 'modules/Register/Register'
+import React, { FC } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { GlobalStyle } from './GlobalStyles'
-import { Home } from './modules/Home/Home'
-import { Register } from './modules/Register/Register'
 
-function App() {
+export const App: FC = () => {
   return (
     <>
+      <GeomanistFont />
       <GlobalStyle />
       <Router>
         <Switch>
@@ -17,5 +18,3 @@ function App() {
     </>
   )
 }
-
-export default App
