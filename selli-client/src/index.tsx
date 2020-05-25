@@ -1,15 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import { Root } from './Root'
 import * as serviceWorker from './serviceWorker'
-
-const Root: React.FC = () => {
-  return (
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  )
-}
 
 ReactDOM.render(<Root />, document.getElementById('root'))
 
